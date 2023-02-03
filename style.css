@@ -1,0 +1,17 @@
+body{
+    background-color:darkslategray;
+}
+
+h1{
+    font-size: 20px;
+    text-align: center;
+    padding: auto;
+}
+
+p{
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+}

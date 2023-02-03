@@ -1,17 +1,48 @@
+header{
+    padding: 100px;
+    color: white;
+}
+
 body{
-    background-color:darkslategray;
+    background-color: black;
 }
 
 h1{
-    font-size: 20px;
+    font-size: 50px;
     text-align: center;
-    padding: auto;
+    padding: auto;   
+    font-weight: bold;
+}
+
+div{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    border-color:darkgray;
+    border: 2px solid;
+    background-color: darkslategrey;
+    border-radius: 5px;    
 }
 
 p{
+    font-size: 30px;
     text-align: center;
+    color: white;
 }
 
 ul{
+    font-size: 30px;
     text-align: center;
+}
+
+button:hover{
+    background-color: orangered;
+    color: white;
+    transform: scale(1.1);
+}
+
+button.enviar:hover{
+    background-color: white;
+    color: orangered;
+    transform: scale(1.1);
 }

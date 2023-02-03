@@ -1,9 +1,36 @@
-body{
-    background-color:darkslategrey;
+header{
+    padding: 100px;
+    color: white;
 }
 h1{
+    font-size: 50px;
+    font-weight: bold;
     text-align: center;
+    padding: auto;
 }
-p{
+
+body{
+    background-color: black;
+}
+
+div{
+        position: relative;
+        width: 940px;
+        margin: 0 auto;
+        border:3px solid;
+        background-color: darkslategrey;
+        border-radius: 5px;
+}
+
+h2{
+    font-size: 30px;
     text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+p{
+    font-size: 30px;
+    text-align: center;
+    color: white;
 }

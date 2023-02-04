@@ -4,7 +4,7 @@ header{
 }
 
 body{
-    background-color: black;
+    background-color: rgb(15, 15, 20);
 }
 
 h1{
@@ -16,12 +16,18 @@ h1{
 
 div{
     position: relative;
-    width: 940px;
+    width: 375px;
+    height: 350px;
     margin: 0 auto;
-    border-color:darkgray;
-    border: 2px solid;
-    background-color: darkslategrey;
-    border-radius: 5px;    
+    background-color: hsl(261, 21%, 13%); 
+    border-radius: 5px; 
+    padding: 0px;
+    vertical-align: inherit;   
+}
+
+img{
+    width: 50px;
+    height: 30px;
 }
 
 p{
@@ -35,14 +41,19 @@ ul{
     text-align: center;
 }
 
-button:hover{
-    background-color: orangered;
-    color: white;
-    transform: scale(1.1);
+button{
+    background-color: white;
+    text-decoration: none;
+    border-radius: 100px;
 }
 
-button.enviar:hover{
-    background-color: white;
+button:hover{
+    background-color: orangered;
+    transform: scale(1.1);
+    padding: 5px 10px;
+}
+
+button.enviar{
     color: orangered;
     transform: scale(1.1);
 }

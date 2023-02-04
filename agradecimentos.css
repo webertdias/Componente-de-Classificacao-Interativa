@@ -10,16 +10,21 @@ h1{
 }
 
 body{
-    background-color: black;
+    background-color:  rgb(15, 15, 20);
 }
 
 div{
         position: relative;
-        width: 940px;
+        width: 400px;
+        height: 650px;
         margin: 0 auto;
-        border:3px solid;
-        background-color: darkslategrey;
+        background-color:  hsl(261, 21%, 13%);
         border-radius: 5px;
+        vertical-align: inherit; 
+}
+img{
+    width: 400px;
+    height: 400px;
 }
 
 h2{
